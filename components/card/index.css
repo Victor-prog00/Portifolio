@@ -1,0 +1,14 @@
+.card {
+  background-color: #313131;
+  color: #ffffff;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.titleCard {
+  color: #18d26e;
+  font-weight: bold;
+}

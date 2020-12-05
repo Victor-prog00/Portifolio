@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #343f42;
+  color: #ffffff;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #2a2a2a;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.imgProfile {
+  width: 100%;
+}
+
+h1 {
+  font-size: 15pt;
+  color: #18d26e;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24pt;
+  color: #18d26e;
+}
+
+.simpleText {
+  color: #ffffff;
+  text-align: center;
+}
+
+.icon {
+  width: 20%;
+}
+
+.simpleText2 {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.secondaryIcon {
+  width: 10%;
+}
+
+.social {
+  width: 100%;
+}
+
+.btnDefault {
+  background-color: #313131;
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+}
+
+.imgTechs {
+  width: 30%;
+}
+
+.cardsDeck {
+  display: flex;
+  justify-content: space-around;
+}
